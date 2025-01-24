@@ -3,7 +3,7 @@ package main
 import (
 	"book-management/pkg/routes"
 	"github.com/gorilla/mux"
-	"github.com/junzhu/dialectes/mysql"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"
 	"net/http"
 )
